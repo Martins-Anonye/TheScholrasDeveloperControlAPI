@@ -1,0 +1,25 @@
+{
+  "currency": "NGN",
+  "pricePerCredit": 1000,
+  "gateways": {
+    "paystack": {
+      "secretKey": "sk_test_df09180fda89b82afa9528d2cb4c8ac7c12d3a64",
+      "publicKey": "pk_test_xxx",
+      "callbackUrl": "https://yourapp.com/payment/callback/paystack"
+    },
+    "flutterwave": {
+      "secretKey": "FLWSECK_TEST-xxx",
+      "publicKey": "FLWPUBK_TEST-xxx",
+      "redirectUrl": "https://yourapp.com/payment/callback/flutterwave",
+      "webhookUrl": "https://yourapp.com/payment/webhook/flutterwave"
+    }
+  },
+  "plans": [
+    { "id": "STARTER_10", "label": "10 Credits", "units": 10, 
+    "priceNaira": 10000, "description":"Starter pack for quick changes"},
+    { "id": "VALUE_50",   "label": "50 Credits", "units": 50,
+     "priceNaira": 45000,"description":"Best value for active admins"},
+    { "id": "SEASON_100", "label": "100 Credits", "units": 100,
+     "priceNaira": 80000, "description":"Season-long management"}
+  ]
+}
