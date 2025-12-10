@@ -20,6 +20,7 @@
     { "id": "VALUE_50",   "label": "50 Credits", "units": 50,
      "priceNaira": 45000,"description":"Best value for active admins"},
     { "id": "SEASON_100", "label": "100 Credits", "units": 100,
-     "priceNaira": 80000, "description":"Season-long management"}
+     "priceNaira": 85000, "description":"Season-long management"}
   ]
 }
+
